@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('mainpage');
+    return view('welcome');
 });
 
 Route::get('/add-student', function () {
@@ -24,3 +24,12 @@ Route::get('/add-student', function () {
 
 Route::get('student', [StudentsController::class, 'index']);
 Route::resource('addstudent', StudentsController::class);
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
