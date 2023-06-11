@@ -9,8 +9,9 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Dhazreel Aiman</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Guitarist, Digital Artist, Music Producer, Modder"></span></p>
+          <img src="/assets/img/logo.png" alt="Logo" width="150"  style="border-radius: 50%;">
+          <h1 class="hero-title mb-4">Welcome to STEADFAST IIUM Page</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Purify Yourself, Preach Others"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -21,78 +22,44 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Dhazreel Aiman</span></p>
-                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>dhazreelaiman71@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(60) 18-9891-062</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">65%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PHP</span> <span class="pull-right">60%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">60%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box-shadow-full">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-img">
+                <img src="assets/img/folio1.png" class="img-fluid rounded b-shadow-a" alt="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-me pt-4 pt-md-0">
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    About me
+                  </h5>
                 </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
-                    </p>
-                    <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                    </p>
-                    <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                    </p>
-                  </div>
-                </div>
+                <p class="lead">
+                  STEADFAST (Students Facilitator Team) isone of the oldest clubs under supervision of
+                  UCCE-BUDI IIUM. This club was  established in August 1991 by the Leadership and
+                   Traning Unit of Student Affairs Division and Discipline (STADD), International 
+                   Islamic University of Malaysia (IIUM)
+                </p>
+                <p class="lead">
+                  The main purpose of the establishment is to create a team of purpose of this
+                  establishment is to create a team of elite students to asist the young generation
+                  outside the campus in achieving thier excellence in life, duniawi and ukhrawi
+                  and to uphold the mission the vision of the university so as to assist the
+                  university in serving the ummah.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </div>
+  </div>
+</section>
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services-mf pt-5 route">
@@ -101,7 +68,7 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Services
+                VISION & MISSION
               </h3>
               <p class="subtitle-a">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -110,8 +77,24 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">VISION</h2>
+                <p class="s-description text-center">
+                  To create the group of dai'e,<br>
+                  To facilitate the mad'u,<br>
+                  To provide human training,<br>
+                  To provide to IIUM community entirely
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
@@ -125,44 +108,28 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">MISSION</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  To achieve integration, islamization, competence, comprehensive excellence,
+                  ambition and professionalism.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Photography</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
                 <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
                   provident vitae! Magni
@@ -200,7 +167,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -216,8 +183,8 @@
                 <span class="ico-circle"><i class="bi bi-check"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <p data-purecounter-start="0" data-purecounter-end="27" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
               </div>
             </div>
           </div>
@@ -227,8 +194,8 @@
                 <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <p data-purecounter-start="0" data-purecounter-end="217" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">MEMBERS INVOLVED</span>
               </div>
             </div>
           </div>
@@ -238,8 +205,8 @@
                 <span class="ico-circle"><i class="bi bi-people"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <p data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">STUDENTS ENGAGED IN 2017</span>
               </div>
             </div>
           </div>
@@ -250,7 +217,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <span class="counter-text">SCOOL PROJECTS IN 2017</span>
               </div>
             </div>
           </div>
@@ -271,10 +238,11 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
               <div class="line-mf"></div>
+              <img src="assets/img/folio2.jpg" class="img-fluid rounded b-shadow-a" alt="">
             </div>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-4">
             <div class="work-box">
               <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
@@ -418,7 +386,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
