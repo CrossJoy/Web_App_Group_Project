@@ -12,7 +12,7 @@
           <img src="/assets/img/logo.png" alt="Logo" width="150"  style="border-radius: 50%;">
           <h1 class="hero-title mb-4">Welcome to STEADFAST IIUM Page</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Purify Yourself, Preach Others"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@
                 VISION & MISSION
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                
               </p>
               <div class="line-mf"></div>
             </div>
@@ -217,7 +217,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">SCOOL PROJECTS IN 2017</span>
+                <span class="counter-text">SCHOOL PROJECTS IN 2017</span>
               </div>
             </div>
           </div>
@@ -232,10 +232,10 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Portfolio
+                Management Board
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                
               </p>
               <div class="line-mf"></div>
               <img src="assets/img/folio2.jpg" class="img-fluid rounded b-shadow-a" alt="">
@@ -405,13 +405,12 @@
                 <div class="swiper-slide">
                   <div class="testimonial-box">
                     <div class="author-test">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Xavi Alonso</span>
+                      <img src="assets/img/pre.png" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">President</span>
                     </div>
                     <div class="content-test">
                       <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        
                       </p>
                     </div>
                   </div>
@@ -420,13 +419,26 @@
                 <div class="swiper-slide">
                   <div class="testimonial-box">
                     <div class="author-test">
-                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
+                      <img src="assets/img/vice1.png" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Vice President 1</span>
                     </div>
                     <div class="content-test">
                       <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/vice2.png" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Vice President 2</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        
                       </p>
                     </div>
                   </div>
@@ -444,8 +456,8 @@
     </div><!-- End Testimonials Section -->
 
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
+    <!-- <section id="blog" class="blog-mf sect-pt4 route"> -->
+      <!-- <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
@@ -554,8 +566,9 @@
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End Blog Section -->
+      </div> -->
+    <!-- </section> -->
+    <!-- End Blog Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
@@ -569,11 +582,11 @@
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message Us
+                        Contact Details
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -618,19 +631,19 @@
                         yo frfrfrfrfrfrfrf
                         Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
                         mollitia inventore?
-                      </p>
+                      </p> -->
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                        <li><span class="bi bi-geo-alt"></span> Jln Gombak, 53100 Kuala Lupur,<br>
+                              Wilayah Persekutuan Kuala Lumpur</li>
+                        <li><span class="bi bi-envelope"></span> steadfastiium@gmail.com</li>
                       </ul>
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://www.facebook.com/steadfastiium"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/p/CqCoq3vPaIb/?hl=en"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/steadfast_iium"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.youtube.com/@steadfastiium8499"><span class="ico-circle"><i class="bi bi-youtube"></i></span></a></li>
                       </ul>
                     </div>
                   </div>

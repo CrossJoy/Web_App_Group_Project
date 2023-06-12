@@ -45,9 +45,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Homes</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="/student">Student</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <!-- <li><a class="nav-link scrollto" href="/student">Student</a></li> -->
+          <li><a class="nav-link scrollto" href="#services">V & M</a></li>
+          <li><a class="nav-link scrollto " href="#work">Board</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
           @if (Route::has('login'))
                     @auth
                       <li><a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a></li>
