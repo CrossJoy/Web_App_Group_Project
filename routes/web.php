@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AchievementController;
 use App\Http\Controllers\StudentsController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,6 +24,7 @@ Route::get('/add-student', function () {
 });
 
 Route::get('student', [StudentsController::class, 'index']);
+Route::get('achievement', [AchievementController::class, 'index']);
 Route::resource('addstudent', StudentsController::class);
 Route::middleware([
     'auth:sanctum',
