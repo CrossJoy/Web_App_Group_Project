@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AchievementController;
 use App\Http\Controllers\StudentsController;
+use App\Http\Controllers\RecruitmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,9 +24,13 @@ Route::get('/add-student', function () {
     return view('add-student');
 });
 
+Route::resource('recruitment', RecruitmentController::class);
+Route::get('mainpage', [RecruitmentController::class, 'home']);
+
 Route::get('student', [StudentsController::class, 'index']);
-Route::get('achievement', [AchievementController::class, 'index']);
 Route::resource('addstudent', StudentsController::class);
+Route::get('achievement', [AchievementController::class, 'index']);
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -35,3 +40,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/mainpage', function () {
+    return view('mainpage');
+})->name('mainpage');
