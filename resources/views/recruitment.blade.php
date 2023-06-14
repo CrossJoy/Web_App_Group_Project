@@ -1,8 +1,6 @@
 @extends('master.layout')
 @section('content')
-<head>
 
-</head>
   <!-- ======= Hero Section ======= -->
   <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
     <div class="overlay-itro"></div>
@@ -11,16 +9,16 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <img src="/assets/img/logo.png" alt="Logo" width="150"  style="border-radius: 50%;">
-          <h1 class="hero-title mb-4">Welcome to STEADFAST IIUM</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Purify Yourself, Preach Others"></span></p>
-          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
+          <h1 class="hero-title mb-4">Recruitment</h1>
+          <!-- <p class="hero-subtitle"><span class="typed" data-typed-items="Purify Yourself, Preach Others"></span></p> -->
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
     </div>
   </div><!-- End Hero Section -->
 
   <div class="container">
-    <h1>Recruitment</h1>
+    <h1></h1>
     <form action="{{ route('recruitment.store') }}" method="post" role="form" enctype="multipart/form-data">
         @csrf
         <div class="form-group">

@@ -74,19 +74,21 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Homes</a></li>
+          <li><a class="nav-link scrollto active" href="/">Homes</a></li>
           <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">V & M</a></li>
-            <li><a class="nav-link scrollto " href="#work">Board</a></li>
-            <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+              <li><a class="nav-link scrollto" href="#services">V & M</a></li>
+              <li><a class="nav-link scrollto " href="#work">Board</a></li>
+              <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="/achievement">Achievement</a></li>
               <li><a class="nav-link scrollto" href="/recruitment">Recruitment</a></li>
               <li><a class="nav-link scrollto" href="/slider">News</a></li>
-              <li><a class="nav-link scrollto" href="/event">Event</a></li>
-              <li><a class="nav-link scrollto" href="/module">Module</a></li>
             </ul>
           </li>
           <!-- <li><a class="nav-link scrollto" href="/student">Student</a></li> -->

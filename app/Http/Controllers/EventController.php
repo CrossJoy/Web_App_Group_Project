@@ -2,33 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Event;
 use Illuminate\Http\Request;
-use App\Models\Achievement;
 
-class AchievementController extends Controller
+class EventController extends Controller
 {
     public function index()
     {
-        $achievement = Achievement::all();
-        return view('achievement', ['achievement' => $achievement]);
+        $event = Event::all();
+        return view('event', ['event' => $event]);
     }
 
-        /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        return view('create_ach');
+        return view('add_event');
     }
+
 
     public function store(Request $request)
     {
         $request->validate([
             'image' => 'required|mimes:jpeg,png,bmp,gif|max:1080',
-            'title' => 'required|string',
-            'description' => 'required|string'
+            'event_name' => 'required|string',
+            'venue' => 'required|string',
+            'date' => 'required|string',
+            'members' => 'required|string',
+            'leader' => 'required|string'
         ]);
     
         $uploadImage = $request->file('image');
@@ -38,12 +37,16 @@ class AchievementController extends Controller
         $storeImage = $imageName . time() . "." . $imageExt;
         $request->image->move(public_path('images'), $storeImage);
     
-        $carousel = Achievement::create([
+        $carousel = Event::create([
             'image' => $storeImage,
-            'title' => $request->input('title'),
-            'description' => $request->input('description')
+            'event_name' => $request->input('event_name'),
+            'venue' => 'required|string',
+            'date' => $request->input('date'),
+            'members' => $request->input('members'),
+            'leader' => $request->input('leader')
         ]);
     
-        return redirect('achievement');
+        return redirect('event');
     }
 }
+
