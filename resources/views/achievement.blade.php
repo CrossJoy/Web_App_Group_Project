@@ -164,10 +164,8 @@
           </div>
 
         </div> -->
-      </div>
-      <div class="col-md-4 add-slider mb-3 p-0">
-                <a href="{{ route('achievement.create') }}" class="btn btn-lg btn-primary float-end me-4" style="position: relative; top: 5px;"><i class="bi bi-person-plus"></i></a>
-            </div>
+
+            <a class="button button-a button-big button-rouded" href="{{ route('achievement.create') }}">Add</a>
 
     </section><!-- End Portfolio Section -->
 

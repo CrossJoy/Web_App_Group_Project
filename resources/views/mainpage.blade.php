@@ -10,7 +10,7 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <img src="/assets/img/logo.png" alt="Logo" width="150"  style="border-radius: 50%;">
-          <h1 class="hero-title mb-4">Welcome to STEADFAST IIUM Page</h1>
+          <h1 class="hero-title mb-4">Welcome to STEADFAST IIUM</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Purify Yourself, Preach Others"></span></p>
           <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
         </div>
