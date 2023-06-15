@@ -70,7 +70,7 @@
                         </x-dropdown>
                     </div>
                 @endif
-
+                <a class="button button-a button-big button-rouded" href="/">Back</a>
                 <!-- Settings Dropdown -->
                 <div class="ml-3 relative">
                     <x-dropdown align="right" width="48">

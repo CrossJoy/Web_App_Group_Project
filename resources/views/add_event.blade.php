@@ -15,7 +15,7 @@
                 <form class="col-md-6 image-uplode d-inline-block border shadow-lg rounded p-2 mt-5" action="{{ route('event.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="m-5">
-                        <h3 class="float-start mb-5">Uplode Image For News</h3>
+                        <h3 class="float-start mb-5">Uplode Image For Event</h3>
                         <input type="file" class="form-control form-control-lg" name="image" id="image">
                     </div>
                     <div class="col-md-12 mb-3">
